@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.App {}
+.landing {
+    background: radial-gradient(50% 50% at 50% 50%, #2F1468 0%, #0B1B32 100%),
+    linear-gradient(0deg, #260B42, #260B42);
+    
+    font-family: Metropolis;
+}
