@@ -2,6 +2,8 @@
 ---
 A simple expense tracker that shames you when you make big purchases.
 
+![alt text](https://github.com/ericsodev/Balance/blob/staging/landingDesktop.png)
+
 ## Learning Objectives
 ---
 - Learning to use react (and CRA) to make single page applications
