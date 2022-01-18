@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from '../components/components'
+import { Button } from '../../components/components'
 import "./landing.css";
 import underCurve from "./Under.svg"
 import overCurve from "./Over.svg"
@@ -25,8 +25,8 @@ export default class Landing extends Component {
           </div>
         </div>
         <div className="curves flex-1 relative">
-          <img src={underCurve} alt="" className="absolute top-0 h-screen right-0 w-max select-none" draggable="false"></img>
-          <img src={overCurve} alt="" className="absolute top-0 h-screen right-0 w-4/5 select-none" draggable="false"></img>
+          <img src={underCurve} alt="" className="absolute top-0 h-screen right-0 w-3/4 select-none" draggable="false"></img>
+          <img src={overCurve} alt="" className="absolute top-0 h-screen right-0 w-1/2 select-none" draggable="false"></img>
         </div>
       </div>
     );
