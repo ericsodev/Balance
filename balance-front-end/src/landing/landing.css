@@ -9,5 +9,6 @@
 }
 
 .tagline {
-  max-width: 25ch;
+  /* Ensure tagline is <= width of title */
+  max-width: 45ch;
 }
