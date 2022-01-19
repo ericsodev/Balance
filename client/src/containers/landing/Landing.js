@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { Button } from '../../components/components'
+import { Button } from "../../components/components";
 import "./landing.css";
-import underCurve from "./Under.svg"
-import overCurve from "./Over.svg"
-
+import underCurve from "./Under.svg";
+import overCurve from "./Over.svg";
 
 export default class Landing extends Component {
   render() {
@@ -21,12 +20,28 @@ export default class Landing extends Component {
               Track your expenses, budget your income and break those pesky
               spending habits.
             </text>
-            <Button text="Start Now" tooltip="Create a personalized dashboard"></Button>
+            <Button
+              text="Start Now"
+              tooltip="Create a personalized dashboard"
+              onClick={() => {
+                console.log("click");
+              }}
+            ></Button>
           </div>
         </div>
         <div className="curves flex-1 relative">
-          <img src={underCurve} alt="" className="absolute top-0 h-screen right-0 w-3/4 select-none" draggable="false"></img>
-          <img src={overCurve} alt="" className="absolute top-0 h-screen right-0 w-1/2 select-none" draggable="false"></img>
+          <img
+            src={underCurve}
+            alt=""
+            className="absolute top-0 h-screen right-0 w-3/4 select-none"
+            draggable="false"
+          ></img>
+          <img
+            src={overCurve}
+            alt=""
+            className="absolute top-0 h-screen right-0 w-1/2 select-none"
+            draggable="false"
+          ></img>
         </div>
       </div>
     );

@@ -1,6 +1,6 @@
-import './App.css';
-import './fonts/stylesheet.css'
-import LandingPage from './landing/Landing'
+import "./App.css";
+import "./fonts/stylesheet.css";
+import LandingPage from "./containers/landing/Landing";
 
 function App() {
   return (
