@@ -22,7 +22,7 @@ export default class Landing extends Component {
             </text>
             <Button
               text="Start Now"
-              tooltip="Create a personalized dashboard"
+              tooltip="Create a personalized plan"
               onClick={() => {
                 console.log("click");
               }}
