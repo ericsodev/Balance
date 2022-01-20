@@ -10,8 +10,6 @@ module.exports = {
           200: "#BBB4E5",
         },
       },
-    },
-    theme: {
       fontFamily: {
         sans: ["Inter", "Arial", "sans-serif"],
         display: ["Metropolis", "Oswald"],

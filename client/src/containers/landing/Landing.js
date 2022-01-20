@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from "../../components/components";
+import { Button } from "../../components/Components";
 import "./landing.css";
 import underCurve from "./Under.svg";
 import overCurve from "./Over.svg";
@@ -23,6 +23,7 @@ export default class Landing extends Component {
             <Button
               text="Start Now"
               tooltip="Create a personalized plan"
+              link="/dashboard"
               onClick={() => {
                 console.log("click");
               }}
